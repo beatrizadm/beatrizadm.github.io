@@ -1,0 +1,228 @@
+/* laptop */
+@media (max-width: 1024px) {
+
+    #about {
+        padding-left: 20vh;
+        padding-right: 20vh;
+    }
+
+    #about h1, #contact h1 {
+        font-size: 5vh;
+    }
+
+    #about h5, #contact h5 {
+        padding-top: 7vh;
+        font-size: 3vh;
+    }
+
+    #about h3 {
+        font-size: 3.5vh;
+    }
+
+    #contact {
+        padding-top: 20vh;
+    }
+
+    #content {
+        padding-bottom: 30vh;
+    }
+
+    #contact h6 {
+        font-size: 2vh;
+    }
+
+    .fa-stack {
+        font-size: 6vh !important;
+    }
+
+    #button {
+        height: 40px;
+        width: 40px;
+        font-size: 15px;
+        bottom: 25px;
+        right: 25px;
+    }
+
+    #button::after {
+        line-height: 33px;
+    }
+
+}
+
+/* tablet */
+@media (max-width: 768px){
+    
+    .switch {
+        width: 50px;
+        height: 24px;
+    }
+
+    .slider:before {
+        height: 32px;
+        width: 32px;
+    }
+
+    #home h1 {
+        font-size: 5.5vh;
+    }
+    
+    #about h1,
+    #contact h1 {
+        font-size: 4vh;
+    }
+
+    #home h3,
+    #about h3,
+    #contact h3 {
+        font-size: 3vh;
+    }
+
+    #about h3 {
+        padding-top: 1.5vh;
+    }
+
+    #home h5,
+    #about h5,
+    #contact h5 {
+        font-size: 2vh;
+    }
+
+    #dark-light h6,
+    #home h6, 
+    #footer h6{
+        font-size: 2.5vh;
+    }
+
+    #about {
+        padding-left: 25vh;
+        padding-right: 25vh;
+    }
+
+    #about img {
+        height: 13vh;
+        border-width: 0.4vh;
+    }
+
+    #home a,
+    #about a {
+        font-size: 1.7vh;
+    }
+
+    #button {
+        height: 30px;
+        width: 30px;
+        font-size: 10px;
+        bottom: 20px;
+        right: 20px;
+    }
+
+    #button::after {
+        line-height: 27px;
+    }
+
+    .fa-stack {
+        font-size: 5.5vh !important;
+      }
+    
+}
+
+
+/* mobile L */
+@media (max-width: 426px) {
+    
+    #home h1 {
+        font-size: 4.5vh;
+    }
+
+    #about h1,
+    #contact h1 {
+        font-size: 3.5vh;
+    }
+
+    #contact h6 {
+        font-size: 2vh;
+    }
+
+    #about {
+        padding-top: 15vh;
+        padding-left: 11vh ;
+        padding-right: 11vh;
+    }
+
+    #about h3 {
+        font-size: 2.5vh;
+    }
+
+    #contact {
+        padding-top: 20vh;
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
+
+}
+
+
+/* mobile M */
+@media(max-width: 375px){
+
+    #home h5 {
+        font-size: 2vh;
+    }
+
+    #home h6 {
+        font-size: 2vh;
+    }
+
+    #contact {
+        padding-top: 20vh;
+    }
+
+    .fa-stack {
+        font-size: 5vh !important;
+    }
+
+    nav a , nav h6 { 
+        font-size: 2vh !important;
+        margin: 0.7vh !important;
+        padding:0.7vh !important;
+        font-size: 2vh !important;
+        border-width: 0.5vh !important;
+    }
+
+}
+
+
+/* mobile S */
+@media(max-width: 320px) {
+
+    #about {
+        padding-top: 10vh;
+        padding-left: 10vh;
+        padding-right: 10vh;
+    }
+
+    #about h3 {
+        font-size: 2.3vh;
+    }
+
+    #contact {
+        padding-top: 15vh;
+        padding-left: 7vh;
+        padding-right: 10vh;
+
+    }
+
+    #contact h6 {
+        padding-top: 5vh;
+        font-size: 1.5vh;
+    }
+
+    nav a , nav h6 { 
+        font-size: 1.8vh !important;
+        margin: 0.6vh !important;
+        padding:0.6vh !important;
+        font-size: 1.8vh !important;
+        border-width: 0.4vh !important;
+    }
+    
+} 

@@ -1,0 +1,161 @@
+/*
+
+1) topnav
+2) home
+3) botoes
+4) about
+5) contact
+
+*/
+
+h5 {
+  color: #00dbdb;
+}
+
+h1, h6 {
+  color: var(--color-txt);
+}
+
+#home, #about, #contact {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+
+/* topnav */
+.topnav {
+  background-color: var(--bg-topnav);
+}
+
+.topnav a {
+  color: var(--color-txt);
+  margin: 1vh;
+  padding:1vh;
+  font-size: 2vh;
+  border-bottom: solid 0.7vh var(--bg-topnav);
+  text-decoration: none;
+}
+
+.topnav #topnav-home {
+  color: purple;
+}
+
+
+/* home */
+
+#home {
+  background-image: var(--bg-home);
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  line-height: 0vh;
+  padding-top: 35vh;
+}
+
+#cabecalho-home h1 {
+  font-size: 10vh;
+}
+
+#cabecalho-home h6 {
+  font-size: 3vh;
+  padding-bottom: 4vh;
+}
+
+#cabecalho-home h5 {
+  letter-spacing: 0.7vh;
+}
+
+
+
+/*  todos os botoes   */
+
+#home a, 
+#about a {
+  color: var(--color-txt);
+  font-size: 2.5vh;
+  border: solid 0.5vh gray;
+  padding: 3vh;
+  border-radius: 1vh;
+  background: none;
+}
+
+#home a:hover, 
+#about a:hover {
+  border-color: purple;
+  color: purple;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+  outline: none;
+  box-shadow: none!important;
+}
+
+
+/* about */
+
+#about {
+  text-align: center;
+  padding: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+  height: 100vh;
+  background-color: var(--bg-about);
+}
+
+#cabecalho-about {
+  padding-bottom: 3vh;
+}
+
+#about h3 {
+  text-align: left;
+  color: var(--color-txt);
+  font-size: 3.5vh;
+}
+
+#about img {
+  height: 17vh;
+  background-color: var(--color-txt);
+  border-radius: 50%;
+  border: solid 0.6vh var(--color-txt);
+}
+
+#btn-contact {
+  padding-top: 6vh;
+}
+
+
+/* contact */
+
+#contact {
+  height: 100vh;
+  padding: 20vh;
+  padding-top: 25vh;
+  background-color: var(--bg-contact);
+}
+
+#icons {
+  padding-top: 10vh;
+}
+
+#content {
+  text-align: center;
+  padding-bottom: 30vh;
+}
+
+.fa-stack {
+  font-size: 7vh !important;
+}
+
+.icon {
+  color: black;
+}
+
+.icon:hover,
+#footer a:hover {
+  color: purple;
+}
+
+#footer a {
+  text-decoration: none;
+}
