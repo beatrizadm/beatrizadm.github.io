@@ -131,15 +131,15 @@
 @media (max-width: 426px) {
     
     .theme-dark {
-        --bg-home: url('../sources/dark-sm.png');
+        /*--bg-home: url('../sources/dark-sm.png');*/
         --bg-about: rgb(24, 24, 24);
         --bg-contact: rgb(29, 29, 29);
     }
-
+/*
     .theme-light {
         --bg-home: url('../sources/light-sm.png');
     }
-
+*/
     #home h1 {
         font-size: 4.5vh;
     }
