@@ -1,3 +1,11 @@
+/* laptop L */
+@media (max-width: 1440px) {
+    #content {
+        padding-bottom: 25vh;
+    }
+}
+
+
 /* laptop */
 @media (max-width: 1024px) {
 
@@ -120,10 +128,6 @@
         line-height: 27px;
     }
 
-    #footer {
-        padding-right: 65%;
-    }
-
     .fa-stack {
         font-size: 5.5vh !important;
       }
@@ -175,7 +179,7 @@
 
     #icons.row {
         padding-top: 5vh;
-        padding-left: 7vh;
+        padding-left: 10vh;
         padding-right: 10vh;
         
     }
@@ -186,7 +190,6 @@
 
     #footer {
         padding-top: 22vh;
-        padding-right: 50%;
     }
 
 }
@@ -211,10 +214,6 @@
 
     #about {
         padding-top: 10vh;
-    }
-
-    #footer {
-        padding-right: 42%;
     }
 
     nav a , nav h6 { 
