@@ -63,7 +63,7 @@
     }
 
     #home h1 {
-        font-size: 5.5vh;
+        font-size: 7vh;
     }
     
     #about h1,
@@ -94,8 +94,8 @@
     }
 
     #about {
-        padding-left: 25vh;
-        padding-right: 25vh;
+        padding-left: 20vh;
+        padding-right: 20vh;
     }
 
     #about img {
@@ -105,7 +105,7 @@
 
     #home a,
     #about a {
-        font-size: 1.7vh;
+        font-size: 2vh;
     }
 
     #button {
@@ -118,6 +118,10 @@
 
     #button::after {
         line-height: 27px;
+    }
+
+    #footer {
+        padding-right: 65%;
     }
 
     .fa-stack {
@@ -182,7 +186,7 @@
 
     #footer {
         padding-top: 22vh;
-        padding-right: 25vh;
+        padding-right: 50%;
     }
 
 }
@@ -210,7 +214,7 @@
     }
 
     #footer {
-        padding-right: 20vh;
+        padding-right: 45%;
     }
 
     nav a , nav h6 { 
