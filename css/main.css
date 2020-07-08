@@ -151,6 +151,11 @@ h1, h6 {
   color: black;
 }
 
+.icon {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .icon:hover,
 #footer a:hover {
   color: purple;
