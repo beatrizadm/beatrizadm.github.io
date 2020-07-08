@@ -156,6 +156,10 @@ h1, h6 {
   color: purple;
 }
 
+#footer {
+  overflow-wrap: break-word;
+}
+
 #footer a {
   text-decoration: none;
 }
