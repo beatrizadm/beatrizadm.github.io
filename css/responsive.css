@@ -162,7 +162,7 @@
     }
 
     #about {
-        padding-top: 15vh;
+        padding-top: 10vh;
         padding-left: 11vh ;
         padding-right: 11vh;
     }
@@ -213,7 +213,11 @@
     }
 
     #about {
-        padding-top: 10vh;
+        padding-top: 8vh;
+    }
+
+    #btn-contact {
+        padding-top: 1.5vh;
     }
 
     nav a , nav h6 { 
@@ -231,7 +235,7 @@
 @media(max-width: 320px) {
 
     #about {
-        padding-top: 10vh;
+        padding-top: 7vh;
         padding-left: 10vh;
         padding-right: 10vh;
     }
