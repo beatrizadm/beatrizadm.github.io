@@ -3,6 +3,12 @@
     #content {
         padding-bottom: 25vh;
     }
+    
+    #icons {
+        padding-right: 40vh;
+        padding-left: 40vh;
+    }
+    
 }
 
 
@@ -33,6 +39,11 @@
 
     #content {
         padding-bottom: 30vh;
+    }
+
+    #icons {
+        padding-right: 20vh;
+        padding-left: 20vh;
     }
 
     #contact h6 {
@@ -130,7 +141,13 @@
 
     .fa-stack {
         font-size: 5.5vh !important;
-      }
+    }
+
+    #icons {
+        padding-right: 10vh;
+        padding-left: 10vh;
+    }
+
     
 }
 
