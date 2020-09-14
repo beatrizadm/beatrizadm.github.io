@@ -7,8 +7,7 @@
     #icons {
         padding-right: 40vh;
         padding-left: 40vh;
-    }
-    
+    } 
 }
 
 
@@ -65,20 +64,19 @@
     #button::after {
         line-height: 33px;
     }
-
 }
 
 /* tablet */
 @media (max-width: 768px){
     
     .switch {
-        width: 50px;
-        height: 24px;
+        width: 57px;
+        height: 30px;
     }
 
     .slider:before {
-        height: 32px;
-        width: 32px;
+        height: 35px;
+        width: 35px;
     }
 
     #home h1 {
@@ -147,8 +145,6 @@
         padding-right: 10vh;
         padding-left: 10vh;
     }
-
-    
 }
 
 
@@ -156,22 +152,44 @@
 @media (max-width: 426px) {
     
     .theme-dark {
-        --bg-home: url('../sources/dark-sm.png');
-        --bg-about: rgb(24, 24, 24);
-        --bg-contact: rgb(29, 29, 29);
+        --bg-home: rgb(30, 30, 30);
+        --bg-about: rgb(15, 15, 15);
+        --bg-contact: rgb(30, 30, 30);
     }
 
     .theme-light {
-        --bg-home: url('../sources/light-sm.png');
+        --bg-home:  rgb(245, 245, 245);
+    }
+
+    nav a, nav h6 { 
+        font-size: 2vh !important;
+        margin: 0.6vh !important;
+        padding:0.6vh !important;
+        border-width: 0.4vh !important;
+    }
+
+    .switch {
+        width: 47px;
+        height: 20px;
+    }
+
+    .slider:before {
+        height: 25px;
+        width: 25px;
     }
 
     #home h1 {
-        font-size: 4.5vh;
+        font-size: 4.7vh;
     }
 
     #about h1,
     #contact h1 {
         font-size: 3.5vh;
+    }
+
+    #home a,
+    #about a {
+        font-size: 1.7vh;
     }
 
     #contact h6 {
@@ -180,8 +198,8 @@
 
     #about {
         padding-top: 10vh;
-        padding-left: 11vh ;
-        padding-right: 11vh;
+        padding-left: 12vh ;
+        padding-right: 12vh;
     }
 
     #about h3 {
@@ -208,7 +226,6 @@
     #footer {
         padding-top: 22vh;
     }
-
 }
 
 
@@ -244,7 +261,6 @@
         font-size: 2vh !important;
         border-width: 0.5vh !important;
     }
-
 }
 
 
@@ -265,14 +281,12 @@
         padding-top: 15vh;
         padding-left: 4vh;
         padding-right: 4vh;
-    }
+    }  
 
-    nav a , nav h6 { 
-        font-size: 1.8vh !important;
+    nav a, nav h6 { 
+        font-size: 1.7vh !important;
         margin: 0.6vh !important;
         padding:0.6vh !important;
-        font-size: 1.8vh !important;
         border-width: 0.4vh !important;
     }
-    
 } 

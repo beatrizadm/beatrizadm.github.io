@@ -44,6 +44,7 @@ h1, h6 {
 
 #home {
   background-image: var(--bg-home);
+  background-color: var(--bg-home);
   background-size: cover;
   height: 100vh;
   text-align: center;

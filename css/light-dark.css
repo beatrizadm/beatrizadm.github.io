@@ -1,6 +1,6 @@
 /* light/dark */
 .theme-dark {
-  --bg-home: url('../sources/dark.png');
+  --bg-home: url('../src/dark.png');
   --color-txt: white;
   --bg-topnav: black;
   --bg-about: rgb(12, 12, 12);
@@ -8,7 +8,7 @@
 }
 
 .theme-light {
-  --bg-home: url('../sources/light.png');
+  --bg-home: url('../src/light.png');
   --color-txt: black;
   --bg-topnav: #ddd;
   --bg-about: #fff;
